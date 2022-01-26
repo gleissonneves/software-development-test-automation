@@ -1,0 +1,26 @@
+{
+  "name": "software-development-test-automation-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleissonneves/software-development-test-automation-study.git"
+  },
+  "keywords": [],
+  "author": "Gleisson Neves <gleissonneves2017@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gleissonneves/software-development-test-automation-study/issues"
+  },
+  "homepage": "https://github.com/gleissonneves/software-development-test-automation-study#readme",
+  "devDependencies": {
+    "jasmine": "^4.0.2",
+    "karma": "^6.3.12",
+    "karma-firefox-launcher": "^2.1.2",
+    "karma-jasmine": "^4.0.1"
+  }
+}
