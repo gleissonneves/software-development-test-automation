@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test-jasmine": "jasmine",
+    "test": "karma start --sigle-run",
+    "test-dev": "karma start"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,12 @@
   },
   "homepage": "https://github.com/gleissonneves/software-development-test-automation-study#readme",
   "devDependencies": {
+    "browserify": "^17.0.0",
     "jasmine": "^4.0.2",
     "karma": "^6.3.12",
+    "karma-browserify": "^8.1.0",
     "karma-firefox-launcher": "^2.1.2",
-    "karma-jasmine": "^4.0.1"
+    "karma-jasmine": "^4.0.1",
+    "watchify": "^4.0.0"
   }
 }
